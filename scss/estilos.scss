@@ -1,0 +1,145 @@
+*{  padding:0%;
+    margin:0%;
+    box-sizing:border-box;
+ } 
+
+ $crema: #FFF1E8;
+ $cafe_claro: #A17359;
+ $cafe_oscuro: #532C1B;
+ $rojito: #98402C;
+ $verde: #89935D;
+ 
+
+   
+ @font-face{
+     font-family: paper-moon;
+     src: url("/fonts/paper-moon.ttf") format('truetype');
+ }
+
+    
+ @font-face{
+    font-family: paperCut;
+    src: url("/fonts/Paper.otf") format('truetype');
+}
+   
+@font-face{
+    font-family: typewriter;
+    src: url("/fonts/typewcond_regular.otf") format('truetype');
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    &:hover{
+        color: white;
+    }
+}
+
+h1{
+    font-family: paperCut;
+}
+
+ h2{
+     font-family: paper-moon;
+ }
+
+ h3{
+    font-family: paper-moon;
+}
+
+h4{
+    font-family: typewriter;
+}
+
+p{
+    font-family: typewriter;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.nav_color{
+    width: 100vw;
+    background-color: $cafe_claro;
+    font-family: typewriter;
+    font-size: 25px;
+
+    li{
+        display: inline;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+ .inicio{
+     background-image: url(/img/imagen1.jpg);
+     background-size: cover;
+     width: 100vw;
+     height: 100vh;
+     background-repeat: no-repeat; 
+ }
+
+ .principal{
+     background-color: $crema;
+ }
+
+ .adp{
+     background-color: $cafe_claro;
+     color: white;
+     padding: 30px;
+ }
+
+ .img_circulo{
+     border-radius: 50%;
+ }
+
+ /*
+.contenido-imagen{
+    position: absolute;
+    color: white;
+    height: auto;
+    padding: 10.7% 3%;
+
+    &:hover{
+        background-color: #363636da;
+    }
+}
+*/
+
+.col-tercio{
+    width: 33%;
+    height: 50%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer {
+    background-color: #A17359;;
+    color: #FFF1E8;
+    a {
+        font-size: 20px;
+        color: $crema;
+        &:hover{
+            color:$cafe_oscuro;
+        }
+    }
+    h4{
+        font-size: 24px;
+        margin: 10px 0;
+    
+    }
+
+    i{
+        font-size: 50px;
+        margin: 10px 20px;
+    }
+}
+ 
+
+     
+
+ 
