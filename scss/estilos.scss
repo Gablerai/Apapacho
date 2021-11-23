@@ -92,8 +92,12 @@ body{
     background-image: url("/img/nosotros/pexels-karolina-grabowska-4219610.png");
     //background-size: cover;
     width: 100vw;
-    height: 100vh;
+    //height: 100vh;
     background-repeat: no-repeat; 
+ }
+
+ .clip{
+    clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 83%);
  }
 
  .principal{
