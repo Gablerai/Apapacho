@@ -88,6 +88,14 @@ body{
      background-repeat: no-repeat; 
  }
 
+ .nos_fondo{
+    background-image: url("/img/nosotros/pexels-karolina-grabowska-4219610.png");
+    //background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat; 
+ }
+
  .principal{
      background-color: $crema;
  }
