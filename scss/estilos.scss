@@ -84,7 +84,7 @@ body{
      background-image: url("/img/img4.jpg");
      background-size: cover;
      width: 100vw;
-     height: 90vh;
+     height: 100vh;
      background-repeat: no-repeat; 
  }
 
@@ -104,6 +104,11 @@ body{
      background-color: $cafe_claro;
      color: white;
      padding: 30px;
+ }
+
+ .cafe_tb{
+     background-color: $rojito;
+     color: white;
  }
 
  .img_circulo{
