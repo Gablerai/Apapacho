@@ -82,8 +82,12 @@ body {
   background-repeat: no-repeat;
 }
 
-.clip {
+.clipleft {
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 83%);
+}
+
+.clipright {
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
 }
 
 .principal {
@@ -103,6 +107,11 @@ body {
 
 .img_circulo {
   border-radius: 50%;
+}
+
+.txtc_bgc {
+  color: #532C1B;
+  background-color: #FFF1E8;
 }
 
 /*
