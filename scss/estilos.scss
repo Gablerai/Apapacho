@@ -87,6 +87,30 @@ body{
      background-repeat: no-repeat; 
  }
 
+ .nosotros{
+     background-image: url("/img/img4.jpg");
+     background-size: cover;
+     width: 100vw;
+     height: 100vh;
+     background-repeat: no-repeat; 
+ }
+
+ .nos_fondo{
+    background-image: url("/img/nosotros/pexels-karolina-grabowska-4219610.png");
+    //background-size: cover;
+    width: 100vw;
+    //height: 100vh;
+    background-repeat: no-repeat; 
+ }
+
+ .clipleft{
+    clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 83%);
+ }
+
+ .clipright{
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+ }
+
  .principal{
      background-color: $crema;
  }
@@ -101,8 +125,18 @@ body{
      padding: 30px;
  }
 
+ .cafe_tb{
+     background-color: $rojito;
+     color: white;
+ }
+
  .img_circulo{
      border-radius: 51%;
+ }
+
+ .txtc_bgc{
+     color: $cafe_oscuro;
+     background-color: $crema;
  }
 
  /*
