@@ -73,6 +73,7 @@ body {
 }
 
 .adp {
+  clip-path: polygon(0 1%, 100% 9%, 100% 100%, 0 91%);
   background-color: #A17359;
   color: white;
   padding: 30px;
@@ -103,6 +104,33 @@ body {
   padding: 20px;
 }
 
+.masonry {
+  /*column-count: 4;*/
+  column-count: 3;
+  column-gap: 16px;
+}
+
+.masonry .mItem {
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+@media (max-width: 991px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+@media (max-width: 767px) {
+  .masonry {
+    column-count: 1;
+  }
+}
 footer {
   background-color: #A17359;
   color: #FFF1E8;
@@ -121,4 +149,8 @@ footer h4 {
 footer i {
   font-size: 50px;
   margin: 10px 20px;
+}
+
+.imagen1 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
 }
