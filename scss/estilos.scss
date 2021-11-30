@@ -53,6 +53,13 @@ h4{
 
 p{
     font-family: typewriter;
+    font-size: 2rem 2vh 3rem;
+}
+
+li{
+    font-family: typewriter;
+    text-decoration: none;
+    display: inline;
 }
 
 body{
@@ -85,14 +92,17 @@ body{
  }
 
  .adp{
+<<<<<<< Updated upstream
     clip-path: polygon(0 1%, 100% 9%, 100% 100%, 0 91%);
      background-color: $cafe_claro;
+=======
+>>>>>>> Stashed changes
      color: white;
      padding: 30px;
  }
 
  .img_circulo{
-     border-radius: 50%;
+     border-radius: 51%;
  }
 
  /*
@@ -150,26 +160,44 @@ body{
 
 
 footer {
-    background-color: #A17359;;
     color: #FFF1E8;
-    a {
-        font-size: 20px;
-        color: $crema;
-        &:hover{
-            color:$cafe_oscuro;
-        }
-    }
-    h4{
-        font-size: 24px;
-        margin: 10px 0;
-    
-    }
-
-    i{
-        font-size: 50px;
-        margin: 10px 20px;
-    }
 }
+
+.imagen-diagonal1{
+    clip-path: polygon(0 0, 88% 0, 89% 100%, 0 97%);
+
+}
+
+.imagen-diagonal2{
+    clip-path: polygon(0 32%, 100% 11%, 100% 85%, 0 72%);
+
+}
+
+
+
+.fondo-diagonal1{
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 90%);
+    background-color: #A17359;
+}
+
+.diagonal-footer{
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
+    background-color: #A17359;
+}
+
+.masonry { /* Masonry container */
+    column-count: 3;
+    column-gap: 1rem;
+  }
+  
+  .item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1rem;
+    width: 100%;
+  }
+
+  
  
 .imagen1{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 97%);
