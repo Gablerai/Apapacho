@@ -61,6 +61,14 @@ li{
     text-decoration: none;
     display: inline;
 }
+.texto-cafe{
+    color: $cafe_oscuro;
+}
+hr:not([size]) {
+    color: $cafe_oscuro;
+    height: 3px;
+    opacity: 100%;
+}
 
 body{
     overflow-x: hidden;
@@ -228,6 +236,12 @@ footer {
     
 }
 
-
+.talla{
+    background-color: $rojito;
+    color: white;
+    &:hover{
+        background-color: $cafe_oscuro;
+    }
+}
 
  

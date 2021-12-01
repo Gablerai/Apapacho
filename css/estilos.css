@@ -51,6 +51,16 @@ li {
   display: inline;
 }
 
+.texto-cafe {
+  color: #532C1B;
+}
+
+hr:not([size]) {
+  color: #532C1B;
+  height: 3px;
+  opacity: 100%;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -200,5 +210,13 @@ footer .img_footer {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
 }
 footer .derechos {
+  background-color: #532C1B;
+}
+
+.talla {
+  background-color: #98402C;
+  color: white;
+}
+.talla:hover {
   background-color: #532C1B;
 }
