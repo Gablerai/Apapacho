@@ -88,7 +88,7 @@ body{
  }
 
  .nosotros{
-     background-image: url("/img/img4.jpg");
+     background-image: url("/img/nosotros/fondo_nosotros.svg");
      background-size: cover;
      width: 100vw;
      height: 100vh;
@@ -96,15 +96,14 @@ body{
  }
 
  .nos_fondo{
-    background-image: url("/img/nosotros/pexels-karolina-grabowska-4219610.png");
+    background-image: url("/img/nosotros/pexels-karolina-grabowska-4219610.svg");
     //background-size: cover;
     width: 100vw;
-    //height: 100vh;
     background-repeat: no-repeat; 
  }
 
  .clipleft{
-    clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 83%);
+    clip-path: polygon(0 0, 100% 21%, 100% 100%, 0 78%);
  }
 
  .clipright{
