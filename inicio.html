@@ -30,8 +30,18 @@
         <nav class="navbar nav_color navbar-expand-sm navbar-dark">
             <div class="container-fluid justify-content-center">
               <ul class="navbar-nav">
-                <li class="nav-item pt-3">
-                  <a class="nav-link active" href="tienda.html">Tienda</a>
+                <li class="nav-item dropdown pt-3">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tienda
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="sueteres.html">Suéteres</a></li>
+                    <li><a class="dropdown-item" href="ponchos.html">Ponchos</a></li>
+                    <li><a class="dropdown-item" href="cobijas.html">Cobijas</a></li>
+                    <li><a class="dropdown-item" href="sombreros.html">Sombreros</a></li>
+                    <li><a class="dropdown-item" href="bolsos.html">Bolsos</a></li>
+                    <li><a class="dropdown-item" href="hamacas.html">Hamacas</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item pt-3">
                   <a class="nav-link active" href="sobreNosotros.html">Sobre Nosotros</a>
@@ -40,13 +50,18 @@
                   <a class="nav-link" href="inicio.html"><img src="/img/logo3.png" width="auto" height="70px" ></a>
                 </li>
                 <li class="nav-item pt-3">
-                    <a class="nav-link active" href="#"><i class="far fa-user"></i></a>
+                    <a class="nav-link active" href="login.html"><i class="far fa-user"></i></a>
                 </li>
-                <li class="nav-item pt-3">
-                    <a class="nav-link active" href="#"><i class="fas fa-search"></i></a>
+                <li class="nav-item pt-4">
+                   <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit"> <i class="fas fa-search"></i></button>
+                   </form>
                 </li>
-                <li class="nav-item pt-3">
-                    <a class="nav-link active" href="#"><i class="fas fa-shopping-bag"></i></a>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active text-white" href="carrito.html"><i class="fas fa-shopping-bag"></i></a>
                 </li>
               </ul>
             </div>
