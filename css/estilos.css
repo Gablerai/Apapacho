@@ -189,6 +189,7 @@ body {
 }
 
 footer {
+  background-color: #FFF1E8;
   color: #FFF1E8;
 }
 footer .diagonal-footer {
@@ -197,4 +198,7 @@ footer .diagonal-footer {
 }
 footer .img_footer {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+}
+footer .derechos {
+  background-color: #532C1B;
 }
