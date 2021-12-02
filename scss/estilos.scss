@@ -117,6 +117,18 @@ body{
     clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
  }
 
+/* .clipCirleft{
+    clip-path: polygon(100% 100%, 34% 100%, 23% 94%, 15% 88%, 9% 79%, 6% 70%, 3% 60%, 2% 49%, 3% 40%, 5% 31%, 11% 21%, 19% 12%, 28% 5%, 37% 0, 100% 0);
+ }*/
+
+ .clipCirleft{
+    border-radius: 6% 43% 32% 6% / 50% 0% 0% 50% ; 
+ }
+
+ .clipCirright{
+    border-radius: 0% 7% 6% 0% / 10% 50% 50% 10%; 
+ }
+
  .principal{
      background-color: $crema;
  }
@@ -140,6 +152,11 @@ body{
  .txtc_bgc{
      color: $cafe_oscuro;
      background-color: #E2DAB9;
+ }
+
+ .txtb_bgr{
+     color: white;
+     background-color: $rojito;
  }
 
  /*
