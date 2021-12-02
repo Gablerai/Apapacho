@@ -64,7 +64,7 @@
     </header>
     
     <main>
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-4">
             <div class="row">
                 <div class="col-12 ps-5">
                   <a href="sueteres.html">
@@ -74,18 +74,23 @@
             </div>
         </div>
 
-        <div class="container mt-5">
+        <div class="container mt-5 mb-5">
             <div class="row">
                 <div class="col-lg-2">
                     <ul>
                         <li>
+                          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
                             <img src="/img/productos/sueterLana.jpg" width="100%">
+                          </button>
                         </li>
                         <li>
+                          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal1">
                             <img src="/img/productos/chicaSueter.jpg" class="pt-3" width="100%">
+                          </button>
                         </li>
                     </ul>
                 </div>
+
                 <div class="col-lg-5 ps-4">
                     <img src="img/productos/sueterLana.jpg" width="100%">
                 </div>
@@ -109,13 +114,62 @@
                        <h2 class="px-1 py-2 "><span class="texto-cafe rounded-circle talla px-2 py-1" style="font-family: 'typewriter';"> XL </span></h2>  
 
                     </div>
-                    <div class="text-start ps-5 ms-5 py-4" style= "background-color: papayawhip;width: 60%;">
-                        <h2 class="texto-cafe ps-4"> Agregar a la cesta </h2>
+                    <div class="ms-5 ps-5">
+                      <a href="carrito.html">
+                      <button class="btn btn-lg agregaA px-5" style="font-family: 'paper-moon'; font-size: 2.5rem;" type="button">AGREGAR A LA CESTA</button>
+                      </a>
                     </div>
-                 
+
+                    <h4 class="ps-5 ms-5 mt-4 text-secondary " style="font-family: 'typewriter';">DESCRIPCIÓN</h4>
+                    <p class="ms-5 ps-5 pb-2 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                    <hr class="ps-5 ms-5"> 
+
+                    <h5 class="ps-5 ms-5 mt-4 text-secondary " style="font-family: 'typewriter';">ESPECIFICACIONES</h5>
+                    <h6 class="ps-5 ms-5  text-secondary " style="font-family: 'typewriter';">*Hecho a Mano</h6>
+                    <h6 class="ps-5 ms-5  text-secondary " style="font-family: 'typewriter';">*100% lana natural</h6>
                 </div>
             </div>
         </div>
+
+
+            <!-- The Modal 1 -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="/img/productos/sueterLana.jpg" width="100%">
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal1">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+      
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="/img/productos/chicaSueter.jpg" width="100%">
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
 
     </main>
 </body>

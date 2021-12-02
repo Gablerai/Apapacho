@@ -66,7 +66,7 @@ li{
 }
 hr:not([size]) {
     color: $cafe_oscuro;
-    height: 3px;
+    height: 2px;
     opacity: 100%;
 }
 
@@ -237,10 +237,19 @@ footer {
 }
 
 .talla{
-    background-color: $rojito;
-    color: white;
+    background-color: $cafe_claro;
+    color:white;
     &:hover{
         background-color: $cafe_oscuro;
+    }
+}
+
+.agregaA{
+    background-color:#F1ECD6;
+    color: $cafe_oscuro;
+    &:hover{
+        background-color: $cafe_claro;
+        color: white;
     }
 }
 

@@ -57,7 +57,7 @@ li {
 
 hr:not([size]) {
   color: #532C1B;
-  height: 3px;
+  height: 2px;
   opacity: 100%;
 }
 
@@ -214,9 +214,18 @@ footer .derechos {
 }
 
 .talla {
-  background-color: #98402C;
+  background-color: #A17359;
   color: white;
 }
 .talla:hover {
   background-color: #532C1B;
+}
+
+.agregaA {
+  background-color: #F1ECD6;
+  color: #532C1B;
+}
+.agregaA:hover {
+  background-color: #A17359;
+  color: white;
 }
