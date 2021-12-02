@@ -16,17 +16,30 @@
      <script src="https://kit.fontawesome.com/20802f16ff.js" crossorigin="anonymous"></script>
      <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
 
+     <link rel="stylesheet" href="files/css/labs.css">
+     <link rel="stylesheet" href="files/css/masonry.css">
+
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
   <!--NAV-->
-    <header>
-      <nav class="navbar nav_color navbar-expand-sm navbar-dark">
+  <header>
+    <nav class="navbar nav_color navbar-expand-sm navbar-dark">
         <div class="container-fluid justify-content-center">
           <ul class="navbar-nav">
-            <li class="nav-item pt-3">
-              <a class="nav-link active" href="tienda.html">Tienda</a>
+            <li class="nav-item dropdown pt-3">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tienda
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="sueteres.html">Suéteres</a></li>
+                <li><a class="dropdown-item" href="ponchos.html">Ponchos</a></li>
+                <li><a class="dropdown-item" href="cobijas.html">Cobijas</a></li>
+                <li><a class="dropdown-item" href="sombreros.html">Sombreros</a></li>
+                <li><a class="dropdown-item" href="bolsos.html">Bolsos</a></li>
+                <li><a class="dropdown-item" href="hamacas.html">Hamacas</a></li>
+              </ul>
             </li>
             <li class="nav-item pt-3">
               <a class="nav-link active" href="sobreNosotros.html">Sobre Nosotros</a>
@@ -35,18 +48,23 @@
               <a class="nav-link" href="inicio.html"><img src="/img/logo3.png" width="auto" height="70px" ></a>
             </li>
             <li class="nav-item pt-3">
-                <a class="nav-link active" href="#"><i class="far fa-user"></i></a>
+                <a class="nav-link active" href="login.html"><i class="far fa-user"></i></a>
             </li>
-            <li class="nav-item pt-3">
-                <a class="nav-link active" href="#"><i class="fas fa-search"></i></a>
+            <li class="nav-item pt-4">
+               <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit"> <i class="fas fa-search"></i></button>
+               </form>
             </li>
-            <li class="nav-item pt-3">
-                <a class="nav-link active" href="#"><i class="fas fa-shopping-bag"></i></a>
+              </ul>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link active text-white" href="carrito.html"><i class="fas fa-shopping-bag"></i></a>
             </li>
           </ul>
         </div>
       </nav>
-    </header> 
+  </header>
 
     <main>
 
@@ -161,11 +179,16 @@
           
         </div>
 
+      </div>
+
+
+      <div class="container-fluid nos_fondodos">
+
         <!--Abrazo-->
         <div class="row position-relative" style="padding-bottom: 750px;">
           <div class="col-lg-12" style="text-align: center">
-            <img src="img/nosotros/heart.svg"  width="500px" style="position: absolute; top: 90px; left: 100px;">
-            <h4 class="txtc_bgc" style="position: absolute; top: 290px; left: 360px; padding: 50px; font-size: 1.8rem; padding-left: 80px; padding-right: 80px;">Se genera automáticamente una conexión entre dos personas,
+            <img src="img/nosotros/heart.svg"  width="500px" style="position: absolute; top: 130px; left: 100px;">
+            <h4 class="txtc_bgc" style="position: absolute; top: 360px; left: 360px; padding: 50px; font-size: 1.8rem; padding-left: 80px; padding-right: 80px;">Se genera automáticamente una conexión entre dos personas,
               <br>
               esta deriva en diversas emociones y sensaciones como la confianza,
               <br>
@@ -177,23 +200,26 @@
               <br>
               identidad como mexicanos para el mundo.
             </h4>
-            <h1 style="background-color: white; color: #98402C; position: absolute; top: 250px; left: 410px; font-size: 3.8rem; padding-left: 15px; padding-right: 15px;">AL RECIBIR UN ABRAZO</h1>
+            <h1 style="background-color: white; color: #98402C; position: absolute; top: 320px; left: 410px; font-size: 3.8rem; padding-left: 15px; padding-right: 15px;">AL RECIBIR UN ABRAZO</h1>
           </div>
         </div>
 
         <!--Impacto-->
-        <div class="row clipleft" style="padding-top: 50px; text-align: center; background-color: #89935D; padding-bottom: 100px;">
-          <div class="row">
+        <div class="row clipleft" style="padding-top: 100px; text-align: center; background-color: #89935D; padding-bottom: 420px;">
+          <div class="row" style="padding-top: 150px; text-align: center;">
             <div class="col-lg-4">
+
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 ">
               <h1 style="background-color: white; color: #532C1B; font-size: 6.5rem;">IMPACTO</h1>
             </div>
             <div class="col-lg-4">
+
             </div>
+
           </div>
 
-          <div class="row" style="text-align: end; padding-right: 0px;">
+          <div class="row" style="text-align: end; padding-right: 0px; padding-top: 80px;">
             <div class="col-lg-4">
             </div>
             <div class="col-lg-8 clipCirleft txtb_bgr">
@@ -206,7 +232,7 @@
             </div>
           </div>
 
-          <div class="row" style="text-align: start;">
+          <div class="row" style="text-align: start; padding-top: 100px;">
             <div class="col-lg-8 clipCirright txtb_bgr">
               <h4 style="font-size: 1.8rem; padding: 20px; padding-left: 50px;">Dar a conocer como identidad mexicana este tipo de prendas
                 <br>
@@ -217,7 +243,7 @@
             </div>
           </div>
 
-          <div class="row" style="text-align: end; padding-right: 0px;">
+          <div class="row" style="text-align: end; padding-right: 0px; padding-top: 100px;">
             <div class="col-lg-5">
             </div>
             <div class="col-lg-7 clipCirleft txtb_bgr">
@@ -228,7 +254,7 @@
             </div>
           </div>
 
-          <div class="row" style="text-align: start;">
+          <div class="row" style="text-align: start; padding-top: 100px;">
             <div class="col-lg-8 clipCirright txtb_bgr">
               <h4 style="font-size: 1.8rem; padding: 20px; padding-left: 50px;">Crear un comercio justo tanto como para 
                 <br>
@@ -238,11 +264,101 @@
             <div class="col-lg-4">
             </div>
           </div>
+        </div>
 
+        <!--Proceso-->
+        <div class="row position-relative" style="padding-top: 190px; padding-bottom: 100px;">
+          <div class="col-lg-12 position-absolute top-0 start-50 translate-middle" style="text-align: center;">
+            <img src="img/nosotros/img_proceso.svg" height="480px" width="auto">
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12" style="text-align: center;">
+              <h1 style="color: #FFF1E8; padding-top: 60px; font-size: 9.5rem;">Proceso</h1>
+            </div>
+          </div>
+
+          <div class="row" style="text-align: center; padding-right: 75px; padding-left: 80px;">
+            <div class="col-lg-12">
+              <h4 style="background-color: #A17359; color: white; padding-top: 30px; padding-bottom: 30px; font-size: 1.8rem;">Desde un inicio nuestra principal visión ha sido crear una marca que fuera en
+                <br> 
+                un cien por ciento sustentable iniciando principalmente en nuestras materias primas, 
+                <br>
+                que son escogidas pasando por un proceso de control de calidad llevado a cabo 
+                <br>
+                de las propias manos de nuestros colaboradores teniendo siempre en mente la exigencia 
+                <br>
+                del consumidor y el comercio justo para así no exceder nuestros
+                <br>
+                 costeos al momento de elaboración.
+                </h4>
+            </div>
+          </div>
+
+          <div class="row" style="text-align: center; padding-top: 30px;">
+            <div class="col-lg-2">
+
+            </div>
+            <div class="col-lg-8">
+              <h4 style="background-color: #89935D; color: white; padding-top: 30px; padding-bottom: 30px; font-size: 1.8rem; border-radius: 80px;"> Con anterioridad a esto ya habiéndose llevado 
+                <br>
+                acabo por un equipo especializado de personas 
+                <br>
+                en diseñar ciertas prendas que sean adecuas a la marca
+                <br>
+                 y a la identidad de esta. Para después pasar por el 
+                 <br>
+                proceso de realización del producto y su debido etiquetado.
+                </h4>
+            </div>
+            <div class="col-lg-2">
+              
+            </div>
+          </div>
+        </div>
+
+        <!--Distribuidores-->
+        <div class="row clipleft" style="background-color: #E2DAB9; padding-top: 120px; padding-right: 80px; padding-left: 80px; padding-bottom: 150px;">
+          <div class="col-lg-12">
+            <h1 style="font-size: 7.5rem; color: #98402C;">Distribuidores</h1>
+
+            <div class="row" style="text-align: end; padding-top: 20px;">
+              <div class="col-lg-2">
+
+              </div>
+              <div class="col-lg-10">
+                <h4 style="font-size: 1.8rem; color: #532C1B;">Llevando de la mano siempre esta visión de mantener un negocio
+                  <br>
+                  sustentable para nuestro entorno como comunidad la marca es abierta a
+                  <br>
+                  que diversas personas y comerciantes se sumen a este equipo de trabajo
+                  <br>
+                  escogiendo así  en distintas localidades de la republica que quieran
+                  <br>
+                  convertirse en distribuidores de la marca y del mismo modo a personas
+                  <br>
+                  que quieran emprender en dicho negocio.
+                </h4>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!--Tienda-->
+        <div class="row" style="padding-right: 70px; padding-left: 80px; padding-top: 80px; padding-bottom: 80px;">
+          <div class="col-lg-12" style="text-align: center;">
+            <h2 style="background-color: white; color: #98402C; font-size: 3.5rem; padding-top: 70px; padding-bottom: 70px;">Contamos con esta tienda en línea para que en
+              <br>
+              cualquier parte del mundo las personas tengan al alcance un “apapacho.</h2>
+          </div>
         </div>
 
 
+
+
       </div>
+
     </main>
 
 <!--FOOTER-->

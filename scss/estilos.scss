@@ -109,6 +109,12 @@ body{
     background-repeat: no-repeat; 
  }
 
+ .nos_fondodos{
+     background-image: url("/img/nosotros/fondo_dos.svg");
+     width: 100vw;
+     background-repeat: no-repeat;
+ }
+
  .clipleft{
     clip-path: polygon(0 0, 100% 21%, 100% 100%, 0 78%);
  }
@@ -116,10 +122,6 @@ body{
  .clipright{
     clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
  }
-
-/* .clipCirleft{
-    clip-path: polygon(100% 100%, 34% 100%, 23% 94%, 15% 88%, 9% 79%, 6% 70%, 3% 60%, 2% 49%, 3% 40%, 5% 31%, 11% 21%, 19% 12%, 28% 5%, 37% 0, 100% 0);
- }*/
 
  .clipCirleft{
     border-radius: 6% 43% 32% 6% / 50% 0% 0% 50% ; 
