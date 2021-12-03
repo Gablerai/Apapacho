@@ -86,7 +86,7 @@ body {
 }
 
 .nosotros {
-  background-image: url("/img/nosotros/fondo_nosotros.svg");
+  background-image: url("/img/nosotros/fondo_nosotros.png");
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -94,9 +94,10 @@ body {
 }
 
 .nos_fondo {
-  background-image: url("/img/nosotros/pexels-karolina-grabowska-4219610.svg");
+  background-image: url("/img/nosotros/pexels-karolina-grabowska-4219610.png");
   width: 100vw;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nos_fondodos {
