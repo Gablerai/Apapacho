@@ -100,9 +100,10 @@ body {
 }
 
 .nos_fondodos {
-  background-image: url("/img/nosotros/fondo_dos.svg");
+  background-image: url("/img/nosotros/fondo_dos.png");
   width: 100vw;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .clipleft {
