@@ -56,7 +56,7 @@ li {
 }
 
 hr:not([size]) {
-  color: #532C1B;
+  color: #A17359;
   height: 2px;
   opacity: 100%;
 }
@@ -260,4 +260,9 @@ footer .derechos {
 .agregaA:hover {
   background-color: #A17359;
   color: white;
+}
+
+.scroll-section {
+  max-height: 100px;
+  overflow-y: auto;
 }

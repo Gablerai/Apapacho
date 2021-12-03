@@ -65,7 +65,7 @@ li{
     color: $cafe_oscuro;
 }
 hr:not([size]) {
-    color: $cafe_oscuro;
+    color: $cafe_claro;
     height: 2px;
     opacity: 100%;
 }
@@ -284,4 +284,7 @@ footer {
     }
 }
 
- 
+.scroll-section {
+    max-height: 100px;
+    overflow-y: auto;
+  }
