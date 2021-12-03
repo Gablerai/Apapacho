@@ -151,6 +151,17 @@ body {
   background-color: #98402C;
 }
 
+.ref_cont {
+  color: #532C1B;
+  font-size: 1.8rem;
+  padding-top: 50px;
+}
+
+.ref_per {
+  color: #532C1B;
+  font-size: 5rem;
+}
+
 /*
 .contenido-imagen{
     position: absolute;
