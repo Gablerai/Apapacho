@@ -77,6 +77,18 @@ body {
   margin-right: 50px;
 }
 
+.nav_colorverde {
+  width: 100vw;
+  background-color: #89935D;
+  font-family: typewriter;
+  font-size: 25px;
+}
+.nav_colorverde li {
+  display: inline;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .inicio {
   background-image: url(/img/imagen1.jpg);
   background-size: cover;
@@ -103,6 +115,15 @@ body {
 .nos_fondodos {
   background-image: url("/img/nosotros/fondo_dos.png");
   width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*LOGIN*/
+.fondo_log {
+  background-image: url("/img/fondo_login.jpg");
+  width: 100vw;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
