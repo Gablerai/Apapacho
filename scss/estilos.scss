@@ -134,9 +134,61 @@ body{
  .fondo_log{
     background-image: url("/img/fondo_login.jpg");
     width: 100vw;
-    height: 100vh;
+    color:#201402da;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-family: typewriter;
+    font-size: 25px;
+    color: $cafe_oscuro;
+    background-color: $crema;
+    border:$cafe_oscuro;
+
+}
+
+#busqueda{
+    padding: 0.45rem;
+    background-color: $crema;
+    border-radius: 1.5rem;
+
+}
+
+.form-check-input{
+    background-color: $crema;
+}
+
+
+.btn-verde{
+    width: 50%;
+    font-family: typewriter;
+    font-size: 25px;
+    padding: 1rem;
+    border-radius: 2rem;
+    color:$crema;
+    background-color: $verde;
+    &:hover{
+        color:$cafe_oscuro;
+        background-color: $rojito;
+    }
+}
+
+.btn-blanco{
+    width: 50%;
+    font-family: typewriter;
+    font-size: 25px;
+    padding: 1rem;
+    border-radius: 2rem;
+    color:$crema;
+    &:hover{
+        color:$cafe_oscuro;
+    }
 }
 
 
