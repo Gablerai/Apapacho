@@ -124,6 +124,7 @@ body {
   background-image: url("/img/fondo_login.jpg");
   width: 100%;
   height: 100%;
+  position: fixed;
   background-color: #7c655bce;
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
@@ -146,6 +147,7 @@ body {
   padding: 0.45rem;
   background-color: #FFF1E8;
   border-radius: 1.5rem;
+  margin: 0%;
 }
 
 .form-check-input {
@@ -357,4 +359,20 @@ footer .derechos {
 
 .bg-beige {
   background-color: beige;
+}
+
+.boton_index {
+  background-color: beige;
+  color: #532C1B;
+}
+.boton_index:hover {
+  background-color: #532C1B;
+  color: white;
+}
+
+.cambio_col {
+  color: white;
+}
+.cambio_col:hover {
+  color: #532C1B;
 }

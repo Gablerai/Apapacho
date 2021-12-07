@@ -159,6 +159,7 @@ body{
     padding: 0.45rem;
     background-color: $crema;
     border-radius: 1.5rem;
+    margin: 0%;
 
 }
 
@@ -385,5 +386,22 @@ footer {
 
 .bg-beige{
     background-color:beige;
+}
+
+.boton_index{
+    background-color: beige;
+    color: $cafe_oscuro;
+    &:hover{
+        background-color: $cafe_oscuro;
+        color: white;
+
+    }
+}
+
+.cambio_col{
+    color: white;
+    &:hover{ 
+        color: $cafe_oscuro;
+    }
 }
 
