@@ -223,6 +223,7 @@ body{
 
  .principal{
      background-color: $crema;
+     background-size: 150vh;
  }
 
  .adp{
@@ -405,3 +406,11 @@ footer {
     }
 }
 
+.alerta{
+    background-color: $verde;
+    color: white;
+}
+
+.presentacion{
+    background-color: $crema;
+}
