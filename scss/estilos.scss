@@ -27,6 +27,16 @@
     src: url("/fonts/typewcond_regular.otf") format('truetype');
 }
 
+body::-webkit-scrollbar {
+    width: 6px;
+    background: $crema
+  }
+  body::-webkit-scrollbar-thumb {
+    /*background: white, 0.2;*/
+    border-radius: 5px;
+    border-right: 6px solid $rojito;
+  }
+
 a{
     text-decoration:none;
     color: black;
