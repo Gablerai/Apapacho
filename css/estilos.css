@@ -16,6 +16,17 @@
   font-family: typewriter;
   src: url("/fonts/typewcond_regular.otf") format("truetype");
 }
+body::-webkit-scrollbar {
+  width: 6px;
+  background: #FFF1E8;
+}
+
+body::-webkit-scrollbar-thumb {
+  /*background: white, 0.2;*/
+  border-radius: 5px;
+  border-right: 6px solid #98402C;
+}
+
 a {
   text-decoration: none;
   color: black;
